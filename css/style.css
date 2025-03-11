@@ -217,10 +217,16 @@ article.image-article figcaption{
     padding: 5px;
     position: relative;
     top: -10px;
+    max-width: 380px;
+}
+
+article.image-article.bar-right figcaption{
+    margin-left: auto;
 }
 
 article.image-article figure img {
     width: 100%;
+    max-width: 400px;
 }
 
 article.image-article h3{
