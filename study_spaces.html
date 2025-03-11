@@ -4,46 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Spaces</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
-    <a href="#main_content">Skip to Main Content</a>
-    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+    <a class="skip" href="#main_content">Skip to Main Content</a>
+    <div class="header-top">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <h1>Student Success Portal</h1>
+    </div>
     <nav>
-        <ul>
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="food_pantry.html">Food Pantry</a></li>
-            <li><a href="study_spaces.html">Study Spaces</a></li>
+            <li class="nav-active"><a href="study_spaces.html">Study Spaces</a></li>
             <li><a href="tutoring.html">UMSI Tutoring</a></li>
         </ul>
     </nav>
-    <h1>Study Spaces on Campus</h1>
-
 </header>
+
 <main id="main_content">
-    <h2>Convenient Study Spaces</h2>
-    <img src="images/study2.jpg"
-         alt="	Students fill tables in the reference room of the Hatcher Graduate library."
-         width="500">
-    <p>The University of Michigan wants to encourage students to spend valuable time working towards their education.
-        For this reason, there are
-        many quality and accessible study spaces available to students on campus. In many cases, reservations are not
-        needed, and students are free
-        to simply show up, and get to work. Often you will find resources to help you succeed, such as power supplies,
-        computer stations, remote-class attendance spaces, and more.</p>
-    <h2>Find a Study Space</h2>
-    <img src="images/study3.jpg"
-         alt="	Students study at the tables singing the sides of the Law Library’s reading room."
-         width="500">
-    <p>The University publishes a list of study spaces on an interactive guide. In most cases, reservations are not
-        required. There are also many more
-        study spaces around campus than just the ones listed here, and in most cases, the University is more than happy
-        to allow you to study wherever works best for you, as long as it doesn't interfere with other events.</p>
-    <p><a href="https://studyspaces.umich.edu/">Study Spaces Guide</a></p>
+    <h2>Study Spaces</h2>
+    <section>
+        <article class="image-article bar-left">
+            <div class="sidebar bar-left"></div>
+            <h3>Available Locations on Campus</h3>
+            <figure>
+                <img src="images/study2.jpg"
+                     alt="	Students fill tables in the reference room of the Hatcher Graduate library.">
+                <figcaption>Many wonderful study spaces can help you focus.</figcaption>
+            </figure>
+            <p>The University of Michigan wants to encourage students to spend valuable time working towards their
+                education.
+                For this reason, there are
+                many quality and accessible study spaces available to students on campus. In many cases, reservations
+                are not
+                needed, and students are free
+                to simply show up, and get to work. Often you will find resources to help you succeed, such as power
+                supplies,
+                computer stations, remote-class attendance spaces, and more.</p>
+        </article>
+    </section>
+
+    <section>
+        <article class="image-article bar-right">
+            <div class="sidebar bar-right"></div>
+            <h3>Find a Study Space</h3>
+            <figure>
+                <img src="images/study3.jpg"
+                     alt="Students study at the tables singing the sides of the Law Library’s reading room.">
+                <figcaption>An easy online tool can help locate the best spot for you.</figcaption>
+            </figure>
+            <p>The University publishes a list of study spaces on an interactive guide. In most cases, reservations are
+                not
+                required. There are also many more
+                study spaces around campus than just the ones listed here, and in most cases, the University is more
+                than happy
+                to allow you to study wherever works best for you, as long as it doesn't interfere with other
+                events.</p>
+        </article>
+    </section>
+
+    <p class="link-button"><a href="https://studyspaces.umich.edu/">Study Spaces Guide</a></p>
     <p>Visit the link above to learn more about the Study Spaces available to you. This tool will allow you to sort by
-        location, so you can
-        find study spots nearest to you, or those most convenient for your schedule. Happy studying!</p>
+        location, so you can find study spots nearest to you, or those most convenient for your schedule. Happy
+        studying!</p>
 </main>
 <footer>
     <p>MSI Academic Advising | <a

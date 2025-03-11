@@ -4,43 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMSI Tutoring</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
-    <a href="#main_content">Skip to Main Content</a>
-    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+    <a class="skip" href="#main_content">Skip to Main Content</a>
+    <div class="header-top">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <h1>Student Success Portal</h1>
+    </div>
     <nav>
-        <ul>
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="food_pantry.html">Food Pantry</a></li>
             <li><a href="study_spaces.html">Study Spaces</a></li>
-            <li><a href="tutoring.html">UMSI Tutoring</a></li>
+            <li class="nav-active"><a href="tutoring.html">UMSI Tutoring</a></li>
         </ul>
     </nav>
-    <h1>UMSI Tutoring Services</h1>
-
 </header>
-<main id="main_content">
-    <h2>Tutoring Services Available to SI Students</h2>
-    <img src="images/UMSI_MHIClassroom_02202023_11.jpg"
-         alt="Students work in a classroom in U-M north quad."
-         width="500">
-    <p>The University is committed to helping students to achieve their absolute best. We want to provide the best
-        resources available to help you to learn and succeed in your classes. For this reason, we offer tutoring and
-        academic support, available to all students.</p>
-    <p>Peer tutoring is available, both for technical programming tasks, and for mathematics. Additional academic
-        resources may also be available. We hope that you will be able to find additional help in whatever you need. By
-        engaging with our peer tutors, we hope that you will receive valuable assistance and support in your
-        classes.</p>
 
-    <h2>Accessing Tutoring Services</h2>
-    <img src="images/UMSI_SI662_MHI_CLASSROOM_01.jpg" width="500"
-         alt="UMSI students work together on classwork.">
-    <p>Visit the <a href="https://sites.google.com/umich.edu/umsitutoring/home">UMSI Tutoring Services website</a> for
-        more information. Note that you must be signed in to your umich.edu email address to access the page. For more
-        information beyond this regarding student support and tutoring, contact <a
-                href="mailto:umsi.academicsuccess@umich.edu">umsi.academicsuccess@umich.edu</a>.</p>
+<main id="main_content">
+    <h2>UMSI Tutoring Services</h2>
+
+    <section>
+
+        <article class="image-article bar-left">
+            <div class="sidebar bar-left"></div>
+            <h3>Tutoring Services Available to SI Students</h3>
+            <figure>
+                <img src="images/UMSI_MHIClassroom_02202023_11.jpg"
+                     alt="Students work in a classroom in U-M north quad."
+                     width="500">
+                <figcaption>
+                    Wonderful tutors are available to you.
+                </figcaption>
+            </figure>
+            <div>
+                <p>The University is committed to helping students to achieve their absolute best. We want to provide the best
+                    resources available to help you to learn and succeed in your classes. For this reason, we offer tutoring and
+                    academic support, available to all students.</p>
+                <p>Peer tutoring is available, both for technical programming tasks, and for mathematics. Additional academic
+                    resources may also be available. We hope that you will be able to find additional help in whatever you need. By
+                    engaging with our peer tutors, we hope that you will receive valuable assistance and support in your
+                    classes.</p>
+            </div>
+
+        </article>
+    </section>
+
+
+    <section>
+        <article class="image-article bar-right">
+            <div class="sidebar bar-right"></div>
+            <h3>Accessing Tutoring Services</h3>
+            <figure>
+                <img src="images/UMSI_SI662_MHI_CLASSROOM_01.jpg" width="500"
+                     alt="UMSI students work together on classwork.">
+                <figcaption>Tutoring help is readily accessible.</figcaption>
+            </figure>
+            <p>Visit the <a href="https://sites.google.com/umich.edu/umsitutoring/home">UMSI Tutoring Services website</a> for
+                more information. Note that you must be signed in to your umich.edu email address to access the page. For more
+                information beyond this regarding student support and tutoring, contact <a
+                        href="mailto:umsi.academicsuccess@umich.edu">umsi.academicsuccess@umich.edu</a>.</p>
+        </article>
+    </section>
+
 </main>
 <footer>
     <p>MSI Academic Advising | <a
