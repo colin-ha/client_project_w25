@@ -243,11 +243,13 @@ article.image-article h3{
     background-color: var(--um-blue);
     width: 200px;
     margin: 5px auto;
-    color: var(--um-maize);
     padding: 10px;
     border-radius: 5px;
 }
 
+.link-button a{
+    color: var(--um-maize);
+}
 .link-button a:visited{
     color: var(--um-maize);
 }
