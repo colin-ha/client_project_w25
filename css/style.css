@@ -259,3 +259,64 @@ article.image-article h3{
 .link-button a:visited{
     color: var(--um-maize);
 }
+
+#number-404{
+    font-size: 20vw;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#text-404{
+    font-size: 3vw;
+    text-align: center;
+}
+
+#heading-404{
+    font-size: 5vw;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#button-404{
+    font-size: 3vw;
+    text-align: center;
+    width: 30vw;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: var(--um-blue);
+    padding: 10px;
+    border-radius: 20px;
+    color: var(--um-maize);
+    transition: background-color 0.2s ease;
+}
+
+#button-404 a{
+    color: var(--um-maize);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#button-404 a:visited{
+    color: var(--um-maize);
+}
+
+#button-404:hover{
+    background-color: var(--um-electricblue);
+}
+
+.color-404{
+    color: var(--um-blue);
+    font-weight: bold;
+}
+
+@media(min-width: 800px){
+    .nav-links{
+        /*Used grid here to interact with old mobile styling*/
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+}
+
+
