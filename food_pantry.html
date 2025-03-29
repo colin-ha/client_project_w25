@@ -6,13 +6,16 @@
     <title>Food Pantry</title>
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
 
 <header>
     <a class="skip" href="#main_content">Skip to Main Content</a>
     <div class="header-top">
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <a href="/">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        </a>
         <h1>Student Success Portal</h1>
     </div>
     <nav>
@@ -28,45 +31,49 @@
 <main id="main_content">
 
     <h2>Food Pantry</h2>
-    <section>
-        <article class="image-article bar-left">
-            <div class="sidebar bar-left"></div>
-            <h3>Maize and Blue Cupboard</h3>
-            <figure>
-                <img src="images/foodpantry1.jpg"
-                     alt="A student holding some food, looking at many cups of fruit on a table.">
-                <figcaption>No matter your reason, the food pantry can help you.</figcaption>
-            </figure>
-            <p>The Maize and Blue Cupboard is a resource available to students who may be struggling with
-                food insecurity or physical restraints that limit their access to food.
-                The university believes it is the basic right of every person to be well-fed at all times,
-                and that healthy eating is essential for success in and out of the classroom. </p>
-        </article>
-    </section>
+    <div class="main-points">
+        <section>
+            <article class="image-article bar-left">
+                <div class="sidebar bar-left"></div>
+                <h3>Maize and Blue Cupboard</h3>
+                <figure>
+                    <img src="images/foodpantry1.jpg"
+                         alt="A student holding some food, looking at many cups of fruit on a table.">
+                    <figcaption>No matter your reason, the food pantry can help you.</figcaption>
+                </figure>
+                <p>The Maize and Blue Cupboard is a resource available to students who may be struggling with
+                    food insecurity or physical restraints that limit their access to food.
+                    The university believes it is the basic right of every person to be well-fed at all times,
+                    and that healthy eating is essential for success in and out of the classroom. </p>
+            </article>
+        </section>
 
-    <section>
-        <article class="image-article bar-right">
-            <div class="sidebar bar-right"></div>
-            <h3>Accessing the Food Pantry</h3>
-            <figure>
-                <img alt="A man in a suit speaking with a worker at the Campus Farm stand."
-                     src="images/foodpantry2.jpg">
-                <figcaption>Located conveniently below Betsy Barbour, the food pantry is ready for you today!
-                </figcaption>
-            </figure>
-            <p>The food pantry is located in the basement of the Betsy Barbour residence hall. They ask
-                that all students enter via the Maynard entrance to protect resident privacy. More information
-                is available at their website.</p>
-        </article>
+        <div class="middle-bar"></div>
 
-        <p class="link-button"><a href="https://mbc.studentlife.umich.edu/">Maize and Blue Cupboard Website</a></p>
+        <section>
+            <article class="image-article bar-right">
+                <div class="sidebar bar-right"></div>
+                <h3>Accessing the Food Pantry</h3>
+                <figure>
+                    <img alt="A man in a suit speaking with a worker at the Campus Farm stand."
+                         src="images/foodpantry2.jpg">
+                    <figcaption>Located conveniently below Betsy Barbour, the food pantry is ready for you today!
+                    </figcaption>
+                </figure>
+                <p>The food pantry is located in the basement of the Betsy Barbour residence hall. They ask
+                    that all students enter via the Maynard entrance to protect resident privacy. More information
+                    is available at their website.</p>
+            </article>
+
+            <p class="link-button"><a href="https://mbc.studentlife.umich.edu/">Maize and Blue Cupboard Website</a></p>
 
         </section>
+    </div>
 </main>
 <footer>
     <p>MSI Academic Advising | <a
             href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic
-        Advising </a></p>
+        Advising </a> | &copy; <span id="year">--year--</span> Colin Harris</p>
 </footer>
 
 </body>

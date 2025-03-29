@@ -6,13 +6,16 @@
     <title>Student Success Portal</title>
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
 
 <header>
     <a class="skip" href="#main_content">Skip to Main Content</a>
     <div class="header-top">
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <a href="/">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        </a>
         <h1>Student Success Portal</h1>
     </div>
     <nav>
@@ -43,27 +46,30 @@
         <h2>Physical Health</h2>
         <p>Keeping your body healthy is essential for success. The University of Michigan offers numerous resources to
             help you stay in top physical condition:</p>
-        <article class="image-article bar-left">
-            <div class="sidebar bar-left"></div>
-            <h3>University Health Service (UHS)</h3>
-            <figure>
-                <img src="images/UHS.jpg" alt="University Health Services building">
-                <figcaption>University Health Services Building</figcaption>
-            </figure>
-            <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups,
-                vaccinations, and specialist referrals.</p>
-        </article>
-        <article class="image-article bar-right">
-            <div class="sidebar bar-right"></div>
-            <h3>Recreational Sports</h3>
-            <figure>
-                <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg"
-                     alt="A student wears a UMSI backpack in fall on the drag.">
-                <figcaption>UMSI out in the fall!</figcaption>
-            </figure>
-            <p>Participate in various fitness programs, sports clubs, and use of gym facilities to stay active and
-                healthy.</p>
-        </article>
+        <div class="main-points">
+            <article class="image-article bar-left">
+                <div class="sidebar bar-left"></div>
+                <h3>University Health Service (UHS)</h3>
+                <figure>
+                    <img src="images/UHS.jpg" alt="University Health Services building">
+                    <figcaption>University Health Services Building</figcaption>
+                </figure>
+                <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups,
+                    vaccinations, and specialist referrals.</p>
+            </article>
+            <div class="middle-bar"></div>
+            <article class="image-article bar-right">
+                <div class="sidebar bar-right"></div>
+                <h3>Recreational Sports</h3>
+                <figure>
+                    <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg"
+                         alt="A student wears a UMSI backpack in fall on the drag.">
+                    <figcaption>UMSI out in the fall!</figcaption>
+                </figure>
+                <p>Participate in various fitness programs, sports clubs, and use of gym facilities to stay active and
+                    healthy.</p>
+            </article>
+        </div>
     </section>
 
     <section class="subtext-section">
@@ -117,7 +123,7 @@
 <footer>
     <p>MSI Academic Advising | <a
             href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic
-        Advising </a></p>
+        Advising </a> | &copy; <span id="year">--year--</span> Colin Harris</p>
 </footer>
 </body>
 </html>
