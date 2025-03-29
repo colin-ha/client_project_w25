@@ -311,12 +311,70 @@ article.image-article h3{
 
 @media(min-width: 800px){
     .nav-links{
-        /*Used grid here to interact with old mobile styling*/
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .header-top {
+        padding: 20px 40px;
+    }
 
+    .header-top img {
+        width: 100px;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 40px;
+    }
+
+
+    article.image-article figure img {
+        max-width: 600px;
+    }
+
+    #life-outside-classroom ul {
+        margin-top: 1rem;
+        column-count: 2;
+        column-gap: 40px;
+    }
+    #life-outside-classroom ul li {
+        margin-bottom: 1rem;
+        break-inside: avoid;
+        padding: 10px 20px;
+        background-color: lightgray;
+        border-radius: 5px;
+    }
+
+    .link-button {
+        width: 300px;
+        padding: 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    .link-button:hover {
+        background-color: var(--um-electricblue);
+    }
+
+    .resources-list {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    .resources-list li {
+        margin: 0;
+        padding: 10px 20px;
+        background-color: lightgray;
+        border-radius: 5px;
+    }
+
+    /* Enhanced navigation hover effects */
+    .nav-links a {
+        font-size: 1.3rem;
+        padding: 15px 20px;
+    }
 }
 
 
